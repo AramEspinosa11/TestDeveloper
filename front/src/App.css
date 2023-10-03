@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: rgb(161,179,255);
+  background: radial-gradient(circle, rgba(161,179,255,1) 0%, rgba(249,249,249,1) 100%);
+}
+
+.imagesSize{
+  width: 50%;
+}
+
+.transparent{
+  background-color: #6700ff14 !important;
+}
+
+.bg-purple{
+  background-color: #712cf9 !important;
+}
+
+.navbarPurple{
+  color: #fff !important;
+  background-color: #712cf9 !important;
+}
+
+.table-purple{
+  color: #fff !important;
+  background-color: #712cf9 !important;
+}
