@@ -8,21 +8,16 @@ ejecuta el comando py -m venv env
 
 Despues activa el proyecto ejecutando venv\Scripts\activate
 
-luego instala las librerias ejecutando los siguientes comandos en la consola:
+luego instala las librerias ejecutando el siguiente comando en la consola:
 
-pip install -U Flask-SQLAlchemy
-pip install Flask-MySQLdb
-pip install flask-marshmallow
-pip install Flask-Cors
-pip install flask-bcrypt
-pip install flask-session
+pip install -r requirements.txt
 
 Para configurar la conexion a la base de datos en el archivo test.py agrega tu usuario, contraseña y la ruta del localhost donde creaste la base de datos
 Ejemplo:      app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@127.0.0.1:3310/weport'
 
 Una vez conectada la base de datos en la consolo ejecuta python test.py
 
-***********Frontend**************
+***********Frontend**********
 
 En la consola entra a la ruta del proyecto TestDeveloper y entra a la carpeta front
 
